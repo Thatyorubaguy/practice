@@ -1,0 +1,82 @@
+body{
+        background:black
+}
+.section{
+        height: 45px;
+        width:100%;
+        background: rgb(248, 245, 245);
+        display: flex;
+        justify-content:space-between;
+        padding:2px 4px;
+}
+
+.header{
+        color:rgb(249, 181, 10);
+        font-size: larger;
+        font-weight: bolder;               
+}
+.search-button{
+
+        background:rgb(249, 181, 10);
+        border:1px solid;
+        border-radius:3px;
+        padding: 5px 10px;
+        margin: 2px;
+}
+#first-box{
+        display: flex;
+        max-width: 100%;   
+        border-bottom:groove 1px rgb(249, 181, 10);
+        margin: 0 2px;
+        padding: 20px;
+        font-size:20px;
+        font-weight: bolder; 
+        color:rgb(249, 181, 10);    
+}
+#generator{
+        height: auto;
+        width: 350px;
+}
+#clothes-bar{
+        padding: 20px; 
+        display: flex; 
+        max-width:100%;
+        margin: auto;
+        border: 3px solid  rgb(249, 181, 10);
+        justify-content:space-around;
+        border-radius: 10px;
+        margin-top: 15px;
+        color:rgb(249, 181, 10);    
+
+}
+.clothes{
+        width: 200px;
+        height: 280px; 
+        background:  rgb(248, 245, 245);
+        margin-right: 10px
+}
+#clothes{
+        width: 100%;
+        height: 200px; 
+        margin-right: 10px
+}
+#image-text{
+        padding: 2px 0 5px 5px;
+}
+#price{
+        padding: 0 0 0 5px;
+        font-weight: bolder;
+}
+#last{
+        text-align: center;
+        color:rgb(249, 181, 10);    
+
+}
+#email{
+        margin-bottom: 10px;
+}
+#sign-up{
+        color:rgb(249, 181, 10);
+        padding: 4px 10px;  
+        border-radius:5px;
+}
